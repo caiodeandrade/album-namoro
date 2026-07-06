@@ -4,10 +4,10 @@
 const ALBUM_DATA = {
   // Cabeçalho / abertura do site
   hero: {
-    title: "[Nome dela] & [Seu nome]",
+    title: "Sofia & Caio",
     subtitle: "4 anos",
     // Data de início do namoro, usada só como texto de referência (formato livre)
-    date: "[DD/MM/AAAA]",
+    date: "10/07/2022",
   },
 
   // Uma entrada por foto, na ordem em que aparecem no scroll (já ordenadas
@@ -31,7 +31,7 @@ const ALBUM_DATA = {
 
   // Encerramento do site
   outro: {
-    title: "[Frase final]",
-    message: "[Mensagem de encerramento]",
+    title: "Obrigado pelos primeiros 4 anos dos melhores das nossas vidas",
+    message: "Te amo, espero que tenha gostado",
   },
 };
