@@ -16,17 +16,17 @@ const ALBUM_DATA = {
   // Uma entrada por foto, na ordem em que aparecem no scroll (já ordenadas
   // cronologicamente pelas fotos originais em assets/photos/01.jpg..14.jpg).
   sections: [
-    { id: 1, photo: "assets/photos/01.jpg", alt: "", caption: "Esse ano foi um ano de muitas conquistas", message: "Fico muito orgulhoso da gente e feliz de dividir isso com você" },
-    { id: 3, photo: "assets/photos/03.jpg", alt: "", caption: "Uma ultima missão antes de encerrar um grande ciclo de muita luta", message: "Sua defesa de TCC" },
-    { id: 4, photo: "assets/photos/04.jpg", alt: "", caption: "Não podia faltar nosso ritual de natal", message: "Meu momento preferido do ano" },
-    { id: 6, photo: "assets/photos/06.jpg", alt: "", caption: "", message: "Passeio de barco" },
-    { id: 7, photo: "assets/photos/07.jpg", alt: "", caption: "Você faz cada momento ser especial", message: "Virada de ano ao lado da melhor companhia" },
-    { id: 8, photo: "assets/photos/08.jpg", alt: "", caption: "", message: "Pegando uma praia" },
-    { id: 9, photo: "assets/photos/09.jpg", alt: "", caption: "", message: "Aproveitando o por do sol" },
-    { id: 10, photo: "assets/photos/10.jpg", alt: "", caption: "", message: "Seu ensaio de fotos" },
-    { id: 11, photo: "assets/photos/11.jpg", alt: "", caption: "", message: "Minha formatura" },
-    { id: 12, photo: "assets/photos/12.jpg", alt: "", caption: "", message: "Sua formatura" },
-    { id: 13, photo: "assets/photos/13.jpg", alt: "", caption: "Ainda não caiu a ficha kkkk", message: "Quando compramos nosso primeiro apê" },
+    { id: 1, photo: "assets/photos/01.jpg", alt: "", caption: "Início de ano", message: "Esse ano foi um ano de muitas conquistas. Fico muito orgulhoso da gente e feliz de dividir isso com você." },
+    { id: 3, photo: "assets/photos/03.jpg", alt: "", caption: "Sua defesa de TCC", message: "Uma última missão antes de encerrar um grande ciclo de muita luta. Te vi vencer, e não podia estar mais orgulhoso." },
+    { id: 4, photo: "assets/photos/04.jpg", alt: "", caption: "Natal em família", message: "Não podia faltar nosso ritual de natal — meu momento preferido do ano." },
+    { id: 6, photo: "assets/photos/06.jpg", alt: "", caption: "Passeio de barco", message: "Só a gente, o mar e a certeza de que qualquer lugar é bom quando é com você." },
+    { id: 7, photo: "assets/photos/07.jpg", alt: "", caption: "Virada do ano", message: "Você faz cada momento ser especial. Fechar o ano ao lado da melhor companhia." },
+    { id: 8, photo: "assets/photos/08.jpg", alt: "", caption: "Um dia de praia", message: "Sol, sal e você — a combinação perfeita para recarregar as energias." },
+    { id: 9, photo: "assets/photos/09.jpg", alt: "", caption: "Pôr do sol", message: "Alguns momentos a gente só quer congelar no tempo. Esse foi um deles." },
+    { id: 10, photo: "assets/photos/10.jpg", alt: "", caption: "Seu ensaio de fotos", message: "Ver você brilhar na frente das câmeras é um dos meus prazeres favoritos." },
+    { id: 11, photo: "assets/photos/11.jpg", alt: "", caption: "Minha formatura", message: "Fechei um ciclo importante com você na plateia — isso fez toda diferença." },
+    { id: 12, photo: "assets/photos/12.jpg", alt: "", caption: "Sua formatura", message: "Assistir você conquistar mais essa foi um dos momentos mais orgulhosos da minha vida." },
+    { id: 13, photo: "assets/photos/13.jpg", alt: "", caption: "Nosso primeiro apê", message: "Ainda não caiu a ficha, kkkk. Começamos oficialmente a construir nosso lar." },
   ],
 
   // Encerramento do site
