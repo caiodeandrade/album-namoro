@@ -5,6 +5,7 @@
   document.getElementById("hero-title").textContent = ALBUM_DATA.hero.title;
   document.getElementById("hero-subtitle").textContent = ALBUM_DATA.hero.subtitle;
   document.getElementById("hero-date").textContent = ALBUM_DATA.hero.date;
+  document.getElementById("intro-text").innerHTML = ALBUM_DATA.intro.replace(/\n\n/g, "<br><br>");
   document.getElementById("outro-title").textContent = ALBUM_DATA.outro.title;
   document.getElementById("outro-message").textContent = ALBUM_DATA.outro.message;
 
@@ -132,6 +133,20 @@
     duration: 0.9,
     stagger: 0.14,
     ease: "power2.out",
+  });
+
+  // Intro letter animation (scrolls into view)
+  gsap.from(".intro-letter-content", {
+    opacity: 0,
+    scale: 0.95,
+    y: 40,
+    duration: 1.2,
+    ease: "back.out(1.2)",
+    scrollTrigger: {
+      trigger: ".intro-letter",
+      start: "top 75%",
+      toggleActions: "play none none reverse",
+    },
   });
 
   document.querySelectorAll(".entry").forEach((entry, index) => {
