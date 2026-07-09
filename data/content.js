@@ -16,7 +16,7 @@ const ALBUM_DATA = {
     { id: 1, photo: "assets/photos/01.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "[Escreva a mensagem desta foto]" },
     { id: 2, photo: "assets/photos/02.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "[Escreva a mensagem desta foto]" },
     { id: 3, photo: "assets/photos/03.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "[Escreva a mensagem desta foto]" },
-    { id: 4, photo: "assets/photos/04.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "[Escreva a mensagem desta foto]" },
+    { id: 4, photo: "assets/photos/04.jpg", alt: "Natal", caption: "Não podia faltar nosso ritual de natal", message: "Meu momento preferido do ano" },
     { id: 5, photo: "assets/photos/05.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "[Escreva a mensagem desta foto]" },
     { id: 6, photo: "assets/photos/06.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "[Escreva a mensagem desta foto]" },
     { id: 7, photo: "assets/photos/07.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "[Escreva a mensagem desta foto]" },
