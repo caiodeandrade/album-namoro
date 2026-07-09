@@ -26,6 +26,14 @@
     <h1 class="hero-title" id="hero-title"></h1>
     <p class="hero-subtitle" id="hero-subtitle"></p>
     <p class="hero-date" id="hero-date"></p>
+
+    <div class="counter" id="counter" aria-label="Tempo juntos">
+      <div class="counter-unit"><span class="counter-value" id="c-years">0</span><span class="counter-label">anos</span></div>
+      <div class="counter-unit"><span class="counter-value" id="c-months">0</span><span class="counter-label">meses</span></div>
+      <div class="counter-unit"><span class="counter-value" id="c-days">0</span><span class="counter-label">dias</span></div>
+      <div class="counter-unit"><span class="counter-value" id="c-time">00:00:00</span><span class="counter-label">de amor</span></div>
+    </div>
+
     <div class="scroll-hint" aria-hidden="true">scroll ↓</div>
   </header>
 
@@ -41,6 +49,13 @@
     <p class="outro-message" id="outro-message"></p>
     <p class="outro-sign">feito com &lt;3 e um pouco de código</p>
   </footer>
+
+  <!-- Player de música (YouTube, escondido) + botão de controle -->
+  <div id="yt-player" aria-hidden="true"></div>
+  <button id="music-toggle" class="music-toggle" type="button" aria-label="Tocar música" title="Nossa música">
+    <span class="music-icon" aria-hidden="true">♫</span>
+    <span class="music-hint" id="music-hint">toque para ouvir nossa música</span>
+  </button>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
