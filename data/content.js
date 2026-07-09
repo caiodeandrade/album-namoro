@@ -13,9 +13,9 @@ const ALBUM_DATA = {
   // Uma entrada por foto, na ordem em que aparecem no scroll (já ordenadas
   // cronologicamente pelas fotos originais em assets/photos/01.jpg..14.jpg).
   sections: [
-    { id: 1, photo: "assets/photos/01.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "[Escreva a mensagem desta foto]" },
-    { id: 2, photo: "assets/photos/02.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "[Escreva a mensagem desta foto]" },
-    { id: 3, photo: "assets/photos/03.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "[Escreva a mensagem desta foto]" },
+    { id: 1, photo: "assets/photos/01.jpg", alt: "[Descreva a foto: onde/quando]", caption: "Esse ano foi um ano de muitas conquistas", message: "Fico muito orgulhoso da gente e feliz de dividir isso com você" },
+    { id: 2, photo: "assets/photos/02.jpg", alt: "[Descreva a foto: onde/quando]", caption: "Espero que goste da retrospectiva digital", message: "Foi feita com muito carinho" },
+    { id: 3, photo: "assets/photos/03.jpg", alt: "PUC - SP", caption: "Uma ultima missão antes de encerrar um grande ciclo de muita luta", message: "Sua defesa de TCC" },
     { id: 4, photo: "assets/photos/04.jpg", alt: "Natal", caption: "Não podia faltar nosso ritual de natal", message: "Meu momento preferido do ano" },
     { id: 5, photo: "assets/photos/05.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "[Escreva a mensagem desta foto]" },
     { id: 6, photo: "assets/photos/06.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "[Escreva a mensagem desta foto]" },
