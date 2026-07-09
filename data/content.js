@@ -17,21 +17,20 @@ const ALBUM_DATA = {
     { id: 2, photo: "assets/photos/02.jpg", alt: "[Descreva a foto: onde/quando]", caption: "Espero que goste da retrospectiva digital", message: "Foi feita com muito carinho" },
     { id: 3, photo: "assets/photos/03.jpg", alt: "PUC - SP", caption: "Uma ultima missão antes de encerrar um grande ciclo de muita luta", message: "Sua defesa de TCC" },
     { id: 4, photo: "assets/photos/04.jpg", alt: "Natal", caption: "Não podia faltar nosso ritual de natal", message: "Meu momento preferido do ano" },
-    { id: 5, photo: "assets/photos/05.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "[Escreva a mensagem desta foto]" },
-    { id: 6, photo: "assets/photos/06.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "[Escreva a mensagem desta foto]" },
-    { id: 7, photo: "assets/photos/07.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "[Escreva a mensagem desta foto]" },
+    { id: 5, photo: "assets/photos/05.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "Mais uma comemoração de natal" },
+    { id: 6, photo: "assets/photos/06.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "Passeio de barco" },
+    { id: 7, photo: "assets/photos/07.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "Virada de ano ao lado da melhor companhia" },
     { id: 8, photo: "assets/photos/08.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "[Escreva a mensagem desta foto]" },
     { id: 9, photo: "assets/photos/09.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "[Escreva a mensagem desta foto]" },
     { id: 10, photo: "assets/photos/10.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "[Escreva a mensagem desta foto]" },
     { id: 11, photo: "assets/photos/11.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "[Escreva a mensagem desta foto]" },
     { id: 12, photo: "assets/photos/12.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "[Escreva a mensagem desta foto]" },
-    { id: 13, photo: "assets/photos/13.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "[Escreva a mensagem desta foto]" },
-    { id: 14, photo: "assets/photos/14.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "[Escreva a mensagem desta foto]" },
+    { id: 13, photo: "assets/photos/13.jpg", alt: "[Descreva a foto: onde/quando]", caption: "Ainda não caiu a ficha kkkk", message: "QUando compramos nosso primeiro apê" },
   ],
 
   // Encerramento do site
   outro: {
-    title: "Obrigado pelos primeiros 4 anos dos melhores das nossas vidas",
-    message: "Te amo, espero que tenha gostado",
+    title: "Feliz 4 anos, meu amor!",
+    message: "Mal posso esperar para viver resto da minha vida com você",
   },
 };
