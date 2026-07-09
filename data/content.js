@@ -14,18 +14,17 @@ const ALBUM_DATA = {
   // cronologicamente pelas fotos originais em assets/photos/01.jpg..14.jpg).
   sections: [
     { id: 1, photo: "assets/photos/01.jpg", alt: "[Descreva a foto: onde/quando]", caption: "Esse ano foi um ano de muitas conquistas", message: "Fico muito orgulhoso da gente e feliz de dividir isso com você" },
-    { id: 2, photo: "assets/photos/02.jpg", alt: "[Descreva a foto: onde/quando]", caption: "Espero que goste da retrospectiva digital", message: "Foi feita com muito carinho" },
     { id: 3, photo: "assets/photos/03.jpg", alt: "PUC - SP", caption: "Uma ultima missão antes de encerrar um grande ciclo de muita luta", message: "Sua defesa de TCC" },
     { id: 4, photo: "assets/photos/04.jpg", alt: "Natal", caption: "Não podia faltar nosso ritual de natal", message: "Meu momento preferido do ano" },
     { id: 5, photo: "assets/photos/05.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "Mais uma comemoração de natal" },
     { id: 6, photo: "assets/photos/06.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "Passeio de barco" },
     { id: 7, photo: "assets/photos/07.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "Virada de ano ao lado da melhor companhia" },
-    { id: 8, photo: "assets/photos/08.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "[Escreva a mensagem desta foto]" },
-    { id: 9, photo: "assets/photos/09.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "[Escreva a mensagem desta foto]" },
-    { id: 10, photo: "assets/photos/10.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "[Escreva a mensagem desta foto]" },
-    { id: 11, photo: "assets/photos/11.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "[Escreva a mensagem desta foto]" },
-    { id: 12, photo: "assets/photos/12.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "[Escreva a mensagem desta foto]" },
-    { id: 13, photo: "assets/photos/13.jpg", alt: "[Descreva a foto: onde/quando]", caption: "Ainda não caiu a ficha kkkk", message: "QUando compramos nosso primeiro apê" },
+    { id: 8, photo: "assets/photos/08.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "Pegando uma praia" },
+    { id: 9, photo: "assets/photos/09.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "Aproveitando o por do sol" },
+    { id: 10, photo: "assets/photos/10.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "Seu ensaio de fotos" },
+    { id: 11, photo: "assets/photos/11.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "Minha formatura" },
+    { id: 12, photo: "assets/photos/12.jpg", alt: "[Descreva a foto: onde/quando]", caption: "", message: "Sua formatura" },
+    { id: 13, photo: "assets/photos/13.jpg", alt: "[Descreva a foto: onde/quando]", caption: "Ainda não caiu a ficha kkkk", message: "Quando compramos nosso primeiro apê" },
   ],
 
   // Encerramento do site
