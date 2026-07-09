@@ -283,20 +283,6 @@
 
   gsap.registerPlugin(ScrollTrigger);
 
-  // Global scroll progress bar + traveling heart
-  const progressBar = document.getElementById("progress-bar");
-  const progressHeart = document.getElementById("progress-heart");
-  ScrollTrigger.create({
-    trigger: document.body,
-    start: "top top",
-    end: "bottom bottom",
-    onUpdate: (self) => {
-      const pct = self.progress * 100;
-      progressBar.style.width = pct + "%";
-      progressHeart.style.left = pct + "%";
-    },
-  });
-
   // Counter entra na tela
   gsap.from(".counter-unit", {
     opacity: 0,

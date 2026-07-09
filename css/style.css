@@ -44,33 +44,6 @@ body {
   z-index: 1;
 }
 
-/* Progress bar with heart */
-#progress-track {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  z-index: 100;
-}
-
-#progress-bar {
-  height: 100%;
-  width: 0%;
-  background: linear-gradient(90deg, var(--accent-a), var(--accent-b), var(--accent-gold));
-  box-shadow: 0 0 12px rgba(251, 113, 133, 0.8);
-}
-
-#progress-heart {
-  position: absolute;
-  top: 6px;
-  left: 0;
-  font-size: 14px;
-  transform: translateX(-50%);
-  filter: drop-shadow(0 0 6px rgba(251, 113, 133, 0.9));
-  transition: left 0.1s linear;
-}
-
 /* Hero */
 .hero {
   min-height: 100svh;
