@@ -118,6 +118,16 @@
     album.appendChild(entry);
   });
 
+  // Fecho da linha do tempo: o infinito (para sempre)
+  const timelineEnd = document.createElement("div");
+  timelineEnd.className = "timeline-end";
+  const infinity = document.createElement("span");
+  infinity.className = "timeline-infinity";
+  infinity.textContent = "∞";
+  infinity.setAttribute("aria-hidden", "true");
+  timelineEnd.appendChild(infinity);
+  album.appendChild(timelineEnd);
+
   // --- Background music (YouTube IFrame API) ---
   const musicConfig = ALBUM_DATA.music;
   const musicToggle = document.getElementById("music-toggle");
@@ -335,6 +345,19 @@
       start: "top 60%",
       end: "bottom 70%",
       scrub: true,
+    },
+  });
+
+  // Infinito surge no fim da linha do tempo
+  gsap.from(".timeline-infinity", {
+    scale: 0,
+    opacity: 0,
+    duration: 0.9,
+    ease: "back.out(1.6)",
+    scrollTrigger: {
+      trigger: ".timeline-end",
+      start: "top 88%",
+      toggleActions: "play none none reverse",
     },
   });
 
